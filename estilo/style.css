@@ -9,12 +9,19 @@
 }
 
 :root {
-   --cor0: #c5ebd6; 
+   /* --cor0: #c5ebd6; 
    --cor1: #83e1ad;
    --cor2: #3ddc84;
    --cor3: #2fa866;
    --cor4: #1a5c37;
-   --cor5: #063d1e;
+   --cor5: #063d1e; */
+   --cor-txt: #262626;
+   --cor0: #cad2d8; 
+   --cor1: #92a2ab;
+   --cor2: #454d54;
+   --cor3: #ff0d4d;
+   --cor5: #f20024;
+   --cor4: #990017;
 
    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
    --fonte-destaque: 'Bebas Neue', sans-serif;
@@ -79,7 +86,7 @@ nav > a {
 }
 
 nav > a:hover {
-    background-color: yellow;
+    background-color: var(--cor0);
     color: var(--cor5);
 }
 
@@ -127,7 +134,7 @@ main strong {
 main a {
     text-decoration: none;
     font-weight: bold;
-    color: var(--cor5);
+    color: var(--cor4);
     background-color: var(--cor1);
     padding: 2px 6px;    
 }
@@ -171,7 +178,7 @@ aside {
 }
 
 aside > h3 {
-    background-color: var(--cor4);
+    background-color: var(--cor2);
     color: white;
     padding: 10px;
     margin: -10px -10px 0px -10px;
@@ -193,7 +200,7 @@ footer {
 }
 
 footer > p > a {
-    color: white;
+    color: var(--cor-txt);
     font-weight: bolder;
     text-decoration: none;
 }
